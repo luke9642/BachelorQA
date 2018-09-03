@@ -1,0 +1,17 @@
+.card-body a {
+    text-decoration: underline;
+}
+
+pre code, code {
+    color: #e83e8c !important;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+pre code {
+    background: rgba(0,0,0,.03);
+    border: 1px solid #dae0e5;
+    display: inline-block;
+    padding: .25em .4em;
+    border-radius: .25rem;
+}
