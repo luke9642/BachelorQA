@@ -1,5 +1,5 @@
 # Teoretyczne podstawy informatyki
-## 1. Języki strukturalne, obiektowe i funkcyjne. Dobór języka w zależności od problemu.
+### 1. Języki strukturalne, obiektowe i funkcyjne. Dobór języka w zależności od problemu.
 	
 ### 2. Teoria informacji Shannona: definicja informacji, entropii; rola redundancji.
 **Informacja** - każda wiadomość, która dociera do odbiorcy, na podstawie której on opiera swoje działanie
@@ -64,7 +64,7 @@ s0 ∈ S - stan początkowy,
 sA - stan końcowy (akceptujący),
 sR - stan odrzucający SASR
 
-## 5. Sposoby reprezentacji liczb w komputerze.
+### 5. Sposoby reprezentacji liczb w komputerze.
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-02.pdf)
 
 - Kod znak-moduł
@@ -144,23 +144,23 @@ Przykłady:
 ## 18. Operacja wstawiania w drzewach czerwono-czarnych.
 [05. ASD - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/1997916/mod_resource/content/1/ASD05.pdf)
 
-## 19. Algortymy przeszukiwanie wszerz i w głąb w grafach.
+### 19. Algortymy przeszukiwanie wszerz i w głąb w grafach.
 [12. MP - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/1791394/mod_resource/content/1/12_grafy_1.pdf)
 [08. ASD - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2019523/mod_resource/content/1/ASD08.pdf)
     
-## 20. Algorytm Dijkstry wyszukiwania najkrótszej ścieżki.
+### 20. Algorytm Dijkstry wyszukiwania najkrótszej ścieżki.
 [13. MP - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/1791395/mod_resource/content/1/13_grafy_2.pdf)
 
-## 21. Programowanie dynamiczne: zależność podproblemów.
+### 21. Programowanie dynamiczne: zależność podproblemów.
 [09. ASD - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2019525/mod_resource/content/1/ASD09.pdf)
 
-## 22. Algorytm zachłanny: przykład optymalnego i nieoptymalnego wykorzystania.
+### 22. Algorytm zachłanny: przykład optymalnego i nieoptymalnego wykorzystania.
 [06. ASD - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2010965/mod_resource/content/1/ASD06.pdf)
 
 ## 23. Algorytm Knutha-Morrisa-Pratta.
 [11. ASD - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2025377/mod_resource/content/1/ASD11.pdf)
 
-## 24. Problemy P, NP, NP-zupełne i zależności między nimi. Hipoteza P vs. NP.
+### 24. Problemy P, NP, NP-zupełne i zależności między nimi. Hipoteza P vs. NP.
 [14. ASD - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2037577/mod_resource/content/1/ASD14.pdf)
 
 ## 25. Równoważność gramatyki bezkontekstowej i automatu ze stosem.

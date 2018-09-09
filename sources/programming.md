@@ -6,9 +6,9 @@
 - [Testowanie - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/specjalnosciowe/TestowanieOprogramowania/Wyklady/2016-2017/)
 - [ZPIT - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/specjalnosciowe/ZPIT/Wyklady/2016-2017/)
 
-## 1. Kompilacja, linkowanie i wykonanie programu; biblioteki statyczne i dynamiczne.
+### 1. Kompilacja, linkowanie i wykonanie programu; biblioteki statyczne i dynamiczne.
     
-## 2. Operacja wywołania podprocedury w asemblerze; rozkaz CALL.
+### 2. Operacja wywołania podprocedury w asemblerze; rozkaz CALL.
 - RBP/EBP wskaźnik bazowy (base pointer) - w nim przechowuje się aktualny spód stosu dla funkcji. Pozwala to określić położenie zmiennych lokalnych.
 - RSP/ESP wskaźnik stosu (stack pointer) - przechowuje adres wierzchołka stosu.
 - RIP/EIP wskaźnik instrukcji (instruction pointer) - Przechowuje adres następnej instrukcji do wykonania. Wywołanie funkcji to tak naprawdę zapamiętanie aktualnej wartości tego rejestru i zmiana na adres początku funkcji.
@@ -38,29 +38,29 @@ Funkcja wywołująca:
   pop ecx       ; przywracamy licznik pętli
 ```
 
-## 3. Różnice w wywołaniu funkcji statycznych, niestatycznych i wirtualnych (C++).
+### 3. Różnice w wywołaniu funkcji statycznych, niestatycznych i wirtualnych (C++).
     
-## 4. Sposoby przekazywania parametrów do funkcji (przez wartość, przez referencję). Zalety i wady.
+### 4. Sposoby przekazywania parametrów do funkcji (przez wartość, przez referencję). Zalety i wady.
     
-## 5. Wskaźniki, arytmetyka wskaźników, różnica między wskaźnikiem a referencją w C++.
+### 5. Wskaźniki, arytmetyka wskaźników, różnica między wskaźnikiem a referencją w C++.
     
-## 6. Podstawowe założenia paradygmatu obiektowego: dziedziczenie, abstrakcja, enkapsulacja, polimorfizm.
+### 6. Podstawowe założenia paradygmatu obiektowego: dziedziczenie, abstrakcja, enkapsulacja, polimorfizm.
     
-## 7. Funkcje zaprzyjaźnione i ich związek z przeładowaniem operatorów w C++.
+### 7. Funkcje zaprzyjaźnione i ich związek z przeładowaniem operatorów w C++.
     
-## 8. Dziedziczenie w C++ i w Javie: podobieństwa i różnice.
+### 8. Dziedziczenie w C++ i w Javie: podobieństwa i różnice.
 	
-## 9. Klasa abstrakcyjna i interfejs.
+### 9. Klasa abstrakcyjna i interfejs.
 	
-## 10. Obsługa sytuacji wyjątkowych w Javie: blok try-catch, typy wyjątków, sprzątanie stosu.
+### 10. Obsługa sytuacji wyjątkowych w Javie: blok try-catch, typy wyjątków, sprzątanie stosu.
 	
-## 11. Klasy generyczne. Różnice pomiędzy klasami generycznymi w C++ i w Javie.
+### 11. Klasy generyczne. Różnice pomiędzy klasami generycznymi w C++ i w Javie.
 
-## 12. Programowanie orientowane zdarzeniami (event-driven), przykłady bibliotek.
+### 12. Programowanie orientowane zdarzeniami (event-driven), przykłady bibliotek.
 	
-## 13. Programowanie generyczne: szablony, metody generyczne, polimorfizm statyczny.
+### 13. Programowanie generyczne: szablony, metody generyczne, polimorfizm statyczny.
 
-## 14. Model spiralny Boehma.
+### 14. Model spiralny Boehma.
 [Testowanie (str 8) - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/specjalnosciowe/TestowanieOprogramowania/Wyklady/2016-2017/02_TestowanieWCykluZycia.pdf)
 
 - Ustalanie celów
@@ -68,10 +68,10 @@ Funkcja wywołująca:
 - Tworzenie i zatwierdzanie
 - Ocena i planowanie
 
-## 15. Diagram sekwencji i diagram przypadków użycia (UML) – budowa i zastosowanie.
+### 15. Diagram sekwencji i diagram przypadków użycia (UML) – budowa i zastosowanie.
 [UML - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2053910/mod_resource/content/1/2017_03_08_Wyklad%201%20-%20PodstawyIUMLI.pdf)
 
-## 16. Typowe sytuacje wykorzystania testów: jednostkowych, integracyjnych, systemowych, akceptacyjnych.
+### 16. Typowe sytuacje wykorzystania testów: jednostkowych, integracyjnych, systemowych, akceptacyjnych.
 
 ## 17. Model Scrum: proces, role, artefakty, korzyści modelu.
 [Inżynieria oprogramowania - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2069772/mod_resource/content/1/2017_04_05_Wyklad%204%20-%20Zwinne%20procesy%20wytwarzania%20oprogramowania%20-%20cz%201.pdf)

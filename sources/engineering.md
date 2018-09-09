@@ -28,7 +28,7 @@ Strategia bezstratnej dekompozycji do BCNF:
 - Isolation (separacja, izolacja) Transakcja powinna wyglądać tak, jakby była wykonywana w izolacji od innych transakcji. 
 - Durability (trwałość) – po zatwierdzeniu (tj. pomyślnym zakończeniu) transakcji jej efekty muszą być trwałe w systemie (nawet jeśli nastąpi uszkodzenie systemu natychmiast po zatwierdzeniu transakcji).
 
-## 5. Klauzule w zdaniu select w języku SQL.
+### 5. Klauzule w zdaniu select w języku SQL.
     
 ## 6. Harmonogramy szeregowalne i nieszeregowalne w bazach danych.
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2019098/mod_resource/content/1/w_transakcje1.pdf)
@@ -38,12 +38,12 @@ Strategia bezstratnej dekompozycji do BCNF:
 
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2024748/mod_resource/content/1/w_transakcje3.pdf)
 
-## 8. Multiplekser jako przykład układu kombinacyjnego.
+### 8. Multiplekser jako przykład układu kombinacyjnego.
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-06.pdf)
 
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-07.pdf)
 
-## 9. Przerzutnik jako przykład układu sekwencyjnego.
+### 9. Przerzutnik jako przykład układu sekwencyjnego.
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-08.pdf)
 
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-09.pdf)

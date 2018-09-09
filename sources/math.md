@@ -56,21 +56,21 @@ Metoda stycznych (Newtona) - `x`<sub>`n+1`</sub>`=x`<sub>`n`</sub>`-f(x`<sub>`n`
     - `|f(x`<sub>`n`</sub>`)|<ε`
 - zbieżna kwadratowo
 
-## 6. Rozwiązywanie układu równań liniowych: metoda eliminacji Gaussa i metoda Gaussa-Seidla.
+### 6. Rozwiązywanie układu równań liniowych: metoda eliminacji Gaussa i metoda Gaussa-Seidla.
 Metoda Gaussa-Seidla
 - `Q=L+D`
 - `Qx`<sup>`(k+1)`</sup>`=(L+D)x`<sup>`(k+1)`</sup>`=-Ux`<sup>`(k)`</sup>`+b`
 - `x`<sup>`(k+1)`</sup>`=(L+D)`<sup>`-1`</sup>`(-U)x`<sup>`(k)`</sup>`+(L+D)`<sup>`-1`</sup>`b`
 - `x`<sup>`(k+1)`</sup>`=(L+D)`<sup>`-1`</sup>`((-U)x`<sup>`(k)`</sup>`+b)`
 
-## 7. Wartości i wektory własne macierzy; numeryczne algorytmy ich wyznaczania.
+### 7. Wartości i wektory własne macierzy; numeryczne algorytmy ich wyznaczania.
     
-## 8. Metody: Lagrange’a i Hermite’a interpolacji wielomianowej.
+### 8. Metody: Lagrange’a i Hermite’a interpolacji wielomianowej.
     
 ## 9. Łańcuchy Markowa. Rozkład stacjonarny.
 - [Łańcuchy Markowa - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/2rok/RPS/Wyklady/Roman/05_procesy_markowa.pdf)
 
-## 10. Zmienne losowe dyskretne. Definicja i najważniejsze rozkłady.
+### 10. Zmienne losowe dyskretne. Definicja i najważniejsze rozkłady.
 - [Zmienne losowe dyskretne - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/2rok/RPS/Wyklady/Roman/02_zmienne_losowe_dyskretne.pdf)
 
 - **Rozkład Bernoulliego**
@@ -80,7 +80,7 @@ Metoda Gaussa-Seidla
 - **Rozkład Poissona** - rozkład liczby tzw. rzadkich zdarzeń w ustalonym okresie czasu
     - `λ` - średnia liczba zgłoszeń
 
-## 11. Zmienne losowe ciągłe. Definicje i najważniejsze rozkłady.
+### 11. Zmienne losowe ciągłe. Definicje i najważniejsze rozkłady.
 - [Zmienne losowe ciągłe - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/2rok/RPS/Wyklady/Roman/03_zmienne_losowe_ciagle.pdf)
 
 - **Rozkład jednostajny**
@@ -94,11 +94,11 @@ Metoda Gaussa-Seidla
 - [10. Inferencja_statystyczna 2, testowanie_hipotez - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/2rok/RPS/Wyklady/Roman/10_inferencja_statystyczna_2_testowanie_hipotez.pdf)
 - [11. Inferencja statystyczna 3, chi 2, testy nieparametryczne, bootstrap](https://mordor.ksi.ii.uj.edu.pl/repo/ii/2rok/RPS/Wyklady/Roman/11_inferencja_statystyczna_3_chi2_testy_nieparametryczne_bootstrap.pdf)
 
-## 13. Wzór Bayesa i jego interpretacja.
+### 13. Wzór Bayesa i jego interpretacja.
 - [01. Prawdopodobieństwo - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/2rok/RPS/Wyklady/Roman/01_prawdopodobienstwo.pdf)
 
 - `P(B|A)=P(A|B)P(B)/P(A)` - wzór Bayesa
-- `P(A|B)=P(AB)/P(B)` - prawd. warunkowe
+- `P(A|B)=P(A∩B)/P(B)` - prawd. warunkowe
 
 ## 14. Istnienie elementów odwrotnych względem mnożenie w strukturze (Z modulo m, +, *) w zależności od liczby naturalnej m.
 [Modulo - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/2rok/WMD/Materialy%20uzupelniajace%20-%20Forys/2015-2016/wmd_15_02.pdf)
