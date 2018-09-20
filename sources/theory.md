@@ -152,7 +152,7 @@ Przykłady:
 #### 20. Algorytm Dijkstry wyszukiwania najkrótszej ścieżki.
 [13. MP - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/1791395/mod_resource/content/1/13_grafy_2.pdf)
 
-### 21. Programowanie dynamiczne: zależność podproblemów.
+#### 21. Programowanie dynamiczne: zależność podproblemów.
 [09. ASD - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2019525/mod_resource/content/1/ASD09.pdf)
 
 #### 22. Algorytm zachłanny: przykład optymalnego i nieoptymalnego wykorzystania.
