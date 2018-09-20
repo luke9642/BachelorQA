@@ -14,7 +14,7 @@
 <body class="bg-dark">
     <nav class="bg-light sticky-top">
         <div class="nav nav-tabs justify-content-center" role="tablist">
-            <div class="btn-group fixed-top" role="group">
+            <div class="btn-group fixed-top" style="right: initial" role="group">
                 <a id="collapse-show" class="btn btn-link">SHOW</a>
                 <a id="collapse-hide" class="btn btn-link">HIDE</a>
             </div>
@@ -22,8 +22,11 @@
             <a id="theory-tab" class="nav-item nav-link" href="#theory" role="tab" data-toggle="tab">Theory <code></code></a>
             <a id="programming-tab" class="nav-item nav-link" href="#programming" role="tab" data-toggle="tab">Programming <code></code></a>
             <a id="engineering-tab" class="nav-item nav-link" href="#engineering" role="tab" data-toggle="tab">Engineering <code></code></a>
+            <div class="btn fixed-top" style="right: 0; left: initial">
+                General:
+                <code id="all-results"></code>
+            </div>
         </div>
-
     </nav>
 
     <main class="container bg-white">

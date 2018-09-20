@@ -3,12 +3,12 @@
 - [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/course/view.php?id=245238)
 - [Systemy operacyjne - Ważniak](http://wazniak.mimuw.edu.pl/index.php?title=Systemy_operacyjne)
 
-## 1. Relacyjny model danych, algebra relacji, normalizacja relacji.
+#### 1. Relacyjny model danych, algebra relacji, normalizacja relacji.
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/1974322/mod_resource/content/4/w02_03.pdf)
 
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2007970/mod_resource/content/1/w05_normalizacja2.pdf)
 
-## 2. Algorytm doprowadzenia relacji do postaci Boyce'a-Codd'a (PNBC).
+#### 2. Algorytm doprowadzenia relacji do postaci Boyce'a-Codd'a (PNBC).
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/1996001/mod_resource/content/2/w04_normalizacja1.pdf)
 
 - Nadklucz: Żadne dwie różne krotki z aktualnej wartości R nie mają tej samej wartości dla K.
@@ -20,7 +20,7 @@ Strategia bezstratnej dekompozycji do BCNF:
 ## 3. Indeksowanie w bazach danych: drzewa B+, tablice o organizacji indeksowej, indeksy haszowe, mapy binarne.
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2036295/mod_resource/content/1/w_indeksy.pdf)
 
-## 4. Podstawowe cechy transakcji (ACID).
+#### 4. Podstawowe cechy transakcji (ACID).
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2019098/mod_resource/content/1/w_transakcje1.pdf)
 
 - Atomicity (atomowość, niepodzielność) – transakcja jest niepodzielną jednostką przetwarzania; albo jest wykonywana w całości, albo wcale. 
@@ -28,9 +28,9 @@ Strategia bezstratnej dekompozycji do BCNF:
 - Isolation (separacja, izolacja) Transakcja powinna wyglądać tak, jakby była wykonywana w izolacji od innych transakcji. 
 - Durability (trwałość) – po zatwierdzeniu (tj. pomyślnym zakończeniu) transakcji jej efekty muszą być trwałe w systemie (nawet jeśli nastąpi uszkodzenie systemu natychmiast po zatwierdzeniu transakcji).
 
-### 5. Klauzule w zdaniu select w języku SQL.
+#### 5. Klauzule w zdaniu select w języku SQL.
     
-## 6. Harmonogramy szeregowalne i nieszeregowalne w bazach danych.
+#### 6. Harmonogramy szeregowalne i nieszeregowalne w bazach danych.
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2019098/mod_resource/content/1/w_transakcje1.pdf)
 
 ## 7. Metody sterowania współbieżnością transakcji. Poziomy izolacji transakcji.
@@ -38,37 +38,44 @@ Strategia bezstratnej dekompozycji do BCNF:
 
 [Bazy danych - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2024748/mod_resource/content/1/w_transakcje3.pdf)
 
-### 8. Multiplekser jako przykład układu kombinacyjnego.
+#### 8. Multiplekser jako przykład układu kombinacyjnego.
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-06.pdf)
 
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-07.pdf)
 
-### 9. Przerzutnik jako przykład układu sekwencyjnego.
+#### 9. Przerzutnik jako przykład układu sekwencyjnego.
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-08.pdf)
 
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-09.pdf)
 
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-10.pdf)
 
-## 10. Minimalizacja funkcji logicznych (metoda Karnaugha, metoda Quinea – McCluskeya).
+#### 10. Minimalizacja funkcji logicznych (metoda Karnaugha, metoda Quinea – McCluskeya).
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-04.pdf)
 
-## 11. Schemat blokowy komputera (maszyna von Neumanna).
+#### 11. Schemat blokowy komputera (maszyna von Neumanna).
 [WDI (str 305) - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/WDI/Wyklady/2017_2018_slajdy_Kawa.pdf)
 
-## 12. Budowa procesora (rejestry, ALU, zegar).
+#### 12. Budowa procesora (rejestry, ALU, zegar).
 [OAK - Mordor](https://mordor.ksi.ii.uj.edu.pl/repo/ii/1rok/OAK/Wyklady/2014-2015/OAK-11.pdf)
 
-## 13. Zarządzanie procesami: stany procesu, algorytmy szeregowania z wywłaszczaniem.
+### 13. Zarządzanie procesami: stany procesu, algorytmy szeregowania z wywłaszczaniem.
 [Systemy operacyjne - Ważniak](http://wazniak.mimuw.edu.pl/images/6/6f/Sop_02_wyk_1.0.pdf)
 
-## 14. Muteks, semafor, monitor jako narzędzia synchronizacji procesów.
+Stany procesu:
+- Nowy, Uśpiony, Aktualnie wykonywany, Oczekujący, Zatrzymany, Gotowy, Zakończony, Sierota, Zombi 
+
+
+Algorytmy szeregowania:
+- FIFO, Planowanie rotacyjne, Planowanie sporadyczne, FCFS
+
+#### 14. Muteks, semafor, monitor jako narzędzia synchronizacji procesów.
 [Systemy operacyjne - Ważniak](http://wazniak.mimuw.edu.pl/images/0/05/Sop_13_wyk_1.0.pdf)
 
-## 15. Pamięć wirtualna i mechanizm stronicowania.
+### 15. Pamięć wirtualna i mechanizm stronicowania.
 [Systemy operacyjne - Ważniak](http://wazniak.mimuw.edu.pl/images/e/e3/Sop_05_wyk_1.0.pdf)
 
-## 16. Systemy plikowe organizacja fizyczna i logiczna (na przykładzie NTFS, ext3 lub FAT)
+### 16. Systemy plikowe organizacja fizyczna i logiczna (na przykładzie NTFS, ext3 lub FAT)
 [Systemy operacyjne - Ważniak](http://wazniak.mimuw.edu.pl/images/5/5a/Sop_09_wyk_1.0.pdf)
 
 [Systemy operacyjne - Ważniak](http://wazniak.mimuw.edu.pl/images/0/03/Sop_08_wyk_1.0.pdf)
@@ -78,10 +85,10 @@ Strategia bezstratnej dekompozycji do BCNF:
 - Przestrzeń dyskowa na potrzeby systemu plików zorganizowana jest w jednostki alokacji, zwane krótko blokami. Blok jest wielokrotnością sektora dysku. W zakresie przydziału miejsca dla pliku na dysku, czyli powiązania bloków z plikiem, omówione są trzy podejścia: przydział ciągły, listowy i indeksowy, przy czym ten ostatni wymaga dodatkowo określenia sposobu powiązania bloków indeksowych. Podejściem opartym na idei przydziału listowego jest tablica alokacji plików (FAT).
 - NTFS — plik identyfikowany jest przez referencję, która jest indeksem rekordu w tablicy MFT, rekord zawiera atrybuty pliku (w szczególności dane) lub odnośniki do bloków z atrybutami. 
 
-## 17. Wywołania systemowe na przykładzie obsługi plików.
+#### 17. Wywołania systemowe na przykładzie obsługi plików.
 [Systemy operacyjne - Ważniak](http://wazniak.mimuw.edu.pl/images/0/03/Sop_08_wyk_1.0.pdf)
 
-## 18. Model ISO OSI. Przykłady protokołów w poszczególnych warstwach.
+#### 18. Model ISO OSI. Przykłady protokołów w poszczególnych warstwach.
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2045498/mod_resource/content/1/sieci_w1_1617.pdf)
 
 7. Warstwa aplikacji: HTTP, FTP, SMTP, TELNET, DNS
@@ -102,7 +109,7 @@ grupowanie danych wejściowych (z warstwy fizycznej) w bloki zwane ramkami danyc
 1. Warstwa fizyczna: 
 przekształcanie danych w strumień impulsów elektrycznych
 
-## 19. Adresowanie w protokołach IPv4 i IPv6.
+#### 19. Adresowanie w protokołach IPv4 i IPv6.
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2051806/mod_resource/content/1/sieci_w2_1617_adresacja_ipv4.pdf)
 
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2057763/mod_resource/content/1/sieci_w3b_ipv4_1617.pdf)
@@ -123,13 +130,13 @@ IPv6
 - fe80::202:b3ff:fe1e:8329
 - adresy jednostkowe (unicast), adresy pobliskie (anycast) i adresy grupowe (multicast). Nie ma w IPv6 adresów rozgłoszeniowych, zastępują je adresy grupowe.
 
-## 20. Przebieg połączenia internetowego: od wpisania adresu strony w przeglądarce do wyświetlenia strony (DNS, TCP/IP itp.).
+#### 20. Przebieg połączenia internetowego: od wpisania adresu strony w przeglądarce do wyświetlenia strony (DNS, TCP/IP itp.).
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2072478/mod_resource/content/1/sieci_w7_dns_1617.pdf)
 
-## 21. Budowa sieci Ethernet. Protokół drzewa rozpinającego.
+### 21. Budowa sieci Ethernet. Protokół drzewa rozpinającego.
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2115974/mod_resource/content/1/sieci_w11_przelaczniki_1617.pdf)
 
-## 22. Rola routerów i podstawowe protokoły routingu.
+### 22. Rola routerów i podstawowe protokoły routingu.
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2057762/mod_resource/content/1/sieci_w3a_1617.pdf)
 
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2057764/mod_resource/content/1/sieci_w4_1617.pdf)
@@ -141,7 +148,7 @@ IPv6
 ## 23. Podpis cyfrowy z szyfrowaniem asymetrycznym.
 [Sieci komputerowe - Pegaz](https://pegaz.uj.edu.pl/pluginfile.php/2072482/mod_resource/content/1/sieci_w8_bezp1617.pdf)
 
-## 24. Algorytm RSA jako przykład szyfrowania asymetrycznego.
+#### 24. Algorytm RSA jako przykład szyfrowania asymetrycznego.
 [BSK - GitHub](https://github.com/PawelBogdan/bsk_lecture_notes/blob/master/lecture_01/cryptography.ipynb)
 
 RSA (Rivest-Shamir-Adleman)
@@ -162,10 +169,10 @@ P=D(C)=Cdmod n
 ## 25. Certyfikaty w bezpieczeństwie sieciowym.
 [BSK - GitHub](https://github.com/PawelBogdan/bsk_lecture_notes/blob/master/lecture_04/ssl.ipynb)
 
-## 26. Wirtualne sieci prywatne.
+#### 26. Wirtualne sieci prywatne.
 [BSK - GitHub](https://github.com/PawelBogdan/bsk_lecture_notes/blob/master/lecture_06/vpn.ipynb)
 
-## 27. Wymiana kluczy w systemach komputerowych na przykładzie protokołu Diffiego-Hellmana
+#### 27. Wymiana kluczy w systemach komputerowych na przykładzie protokołu Diffiego-Hellmana
 [BSK - GitHub](https://github.com/PawelBogdan/bsk_lecture_notes/blob/master/lecture_01/cryptography.ipynb)
 
 [BSK - GitHub](https://pl.wikipedia.org/wiki/Protok%C3%B3%C5%82_Diffiego-Hellmana)

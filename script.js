@@ -1,9 +1,13 @@
 "use strict";
 
 $(document).ready(() => {
+    let allUnfinished = 0;
+    let allFinished = 0;
+    let allSuperFinished = 0;
+
     const converter = new showdown.Converter({
         "noHeaderId": true,
-        "headerLevelStart": 4,
+        "headerLevelStart": 3,
         "tasklists": true
     });
 
@@ -22,17 +26,23 @@ $(document).ready(() => {
     };
 
     const countQuestions = tab => {
-        const unfinished = $(".accordion > h5").length;
-        const finished = $(".accordion > h6").length;
-        $(tab).text("(" + finished + "/" + (unfinished + finished) + ")");
+        const unfinished = $(".accordion > h4").length;
+        const finished = $(".accordion > h5").length;
+        const superFinished = $(".accordion > h6").length;
+        $(tab).text("(" + superFinished + "/" + (finished + superFinished) + "/" + (unfinished + finished + superFinished) + ")");
+        allUnfinished += unfinished;
+        allFinished += finished;
+        allSuperFinished += superFinished;
     };
 
     const css = () => {
         let link = $("<a class='btn btn-link btn-sm btn-block text-left' role='button' data-toggle='collapse' style='white-space: normal; text-decoration: none'/>");
-        $("h4").addClass("m-3 text-center");
+        $("h3").addClass("m-3 text-center");
+        $("h4").addClass("text-danger");
         $("h5").addClass("text-info");
         $("h6").addClass("text-success");
 
+        $(".accordion > h4").wrap("<div class='card-header p-0'/>").wrap(link);
         $(".accordion > h5").wrap("<div class='card-header p-0'/>").wrap(link);
         $(".accordion > h6").wrap("<div class='card-header p-0'/>").wrap(link);
 
@@ -58,5 +68,5 @@ $(document).ready(() => {
 
     $("#collapse-show").click(() => $(":not(.finish) > .collapse").collapse('show'));
     $("#collapse-hide").click(() => $(".collapse").collapse('hide'));
-    $(".fixed-top").css("right", "initial");
+    $( document ).ajaxComplete(() => $("#all-results").text("(" + allSuperFinished + "/" + (allFinished + allSuperFinished) + "/" + (allUnfinished + allFinished + allSuperFinished) + ")"));
 });
