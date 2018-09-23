@@ -18,10 +18,10 @@
                 <a id="collapse-show" class="btn btn-link">SHOW</a>
                 <a id="collapse-hide" class="btn btn-link">HIDE</a>
             </div>
-            <a id="math-tab" class="nav-item nav-link active" href="#math" role="tab" data-toggle="tab">Math <code></code></a>
-            <a id="theory-tab" class="nav-item nav-link" href="#theory" role="tab" data-toggle="tab">Theory <code></code></a>
-            <a id="programming-tab" class="nav-item nav-link" href="#programming" role="tab" data-toggle="tab">Programming <code></code></a>
-            <a id="engineering-tab" class="nav-item nav-link" href="#engineering" role="tab" data-toggle="tab">Engineering <code></code></a>
+            <a id="math-tab" class="nav-item nav-link" href="#math">Math <code></code></a>
+            <a id="theory-tab" class="nav-item nav-link" href="#theory">Theory <code></code></a>
+            <a id="programming-tab" class="nav-item nav-link" href="#programming">Programming <code></code></a>
+            <a id="engineering-tab" class="nav-item nav-link" href="#engineering">Engineering <code></code></a>
             <div class="btn fixed-top" style="right: 0; left: initial">
                 General:
                 <code id="all-results"></code>
@@ -29,22 +29,14 @@
         </div>
     </nav>
 
-    <main class="container bg-white">
+    <main class="container-fluid bg-dark">
         <div class="row">
             <div class="col">
-                <div class="tab-content">
-                    <div class="tab-pane fade show active" id="math" role="tabpanel" aria-labelledby="math-tab">
-                        <div class="accordion" id="main-accordion-0"></div>
-                    </div>
-                    <div class="tab-pane fade" id="theory" role="tabpanel" aria-labelledby="theory-tab">
-                        <div class="accordion" id="main-accordion-1"></div>
-                    </div>
-                    <div class="tab-pane fade" id="programming" role="tabpanel" aria-labelledby="programming-tab">
-                        <div class="accordion" id="main-accordion-2"></div>
-                    </div>
-                    <div class="tab-pane fade" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">
-                        <div class="accordion" id="main-accordion-3"></div>
-                    </div>
+                <div class="d-flex mb-3">
+                    <div class="f-1 tab-pane fade show active" id="math"></div>
+                    <div class="f-1 tab-pane fade show" id="theory"></div>
+                    <div class="f-1 tab-pane fade show" id="programming"></div>
+                    <div class="f-1 tab-pane fade show" id="engineering"></div>
                 </div>
             </div>
         </div>
